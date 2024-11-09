@@ -1,0 +1,148 @@
+[
+  {
+    "ContainingType": "TrendyolApiWithEntityFremowork.Controllers.ApiModelController",
+    "Method": "GetProductByBarcode",
+    "RelativePath": "api/ApiModel/barcode/{barcode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "barcode",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TrendyolApiWithEntityFremowork.Entities.ApiModel\u002BContent",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrendyolApiWithEntityFremowork.Controllers.ApiModelController",
+    "Method": "GetProductByBrand",
+    "RelativePath": "api/ApiModel/brandId/{BrandId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "BrandId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "TrendyolApiWithEntityFremowork.Entities.ApiModel\u002BContent",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrendyolApiWithEntityFremowork.Controllers.ApiModelController",
+    "Method": "AddProduct",
+    "RelativePath": "ApiModel/AddProduct",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newProduct",
+        "Type": "TrendyolApiWithEntityFremowork.Entities.ApiPostModel\u002BRootPostModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrendyolApiWithEntityFremowork.Controllers.ApiModelController",
+    "Method": "DeleteProduct",
+    "RelativePath": "ApiModel/DeleteProduct/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrendyolApiWithEntityFremowork.Controllers.ApiModelController",
+    "Method": "GetAllProduct",
+    "RelativePath": "ApiModel/GetAllProduct",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "TrendyolApiWithEntityFremowork.Entities.ApiModel\u002BRoot",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "TrendyolApiWithEntityFremowork.Controllers.ApiModelController",
+    "Method": "UpdateProduct",
+    "RelativePath": "ApiModel/UpdateProduct/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedProduct",
+        "Type": "TrendyolApiWithEntityFremowork.Entities.ApiModel\u002BContent",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TrendyolApiWithEntityFremowork.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[TrendyolApiWithEntityFremowork.WeatherForecast, TrendyolApiWithEntityFremowork, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

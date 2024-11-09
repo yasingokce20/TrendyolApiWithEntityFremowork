@@ -1,0 +1,10 @@
+@TrendyolApiWithEntityFremowork_HostAddress = https://localhost:7009
+
+GET {{TrendyolApiWithEntityFremowork_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{TrendyolApiWithEntityFremowork_HostAddress}}/weatherforecast
+
+###
